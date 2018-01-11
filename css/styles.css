@@ -1,8 +1,75 @@
-/*font-family: 'Courgette', cursive;*/
+header {
+    /* padding: 20px 0; */
+    font-family: 'Courgette', cursive;
+    color: #3c78d8;
+    background: #f4f5f7;
+}
 
-.profile-picture{
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
+body {
+    padding: 20px 0;
+    font: 300 14px "Lato", sans-serif;
+    background-color: #f4f5f7;
+}
 
+h4 {
+    font-family: 'Courgette', cursive;
+    color: #3c78d8;
+}
+
+hr {
+    border: 2px solid #8d929b;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.project {
+    text-align: center;
+}
+
+.profile-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-title {
+    text-align: right;
+}
+
+.btn {
+    margin: 10px;
+    background-color: #2065d6;
+    color: white;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.love {
+    color: red;
+}
+
+@media screen and (max-width: 992px) {
+    .profile-name {
+        text-align: center;
+    }
+    .profile-title {
+        text-align: center;
+    }
+    .profile-picture {
+        margin: auto;
+        display: block;
+        border-radius: 5%;
+    }
 }
