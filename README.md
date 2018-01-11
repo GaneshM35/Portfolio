@@ -1,7 +1,3 @@
-# Portfolio
-Full Stack Web Developer Project II - Udacity
-
-
 # Project 2: Build a Portfolio Site
 ### by Ganesh M
 
