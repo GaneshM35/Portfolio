@@ -1,7 +1,9 @@
 # Project 2: Build a Portfolio Site
 ### by Ganesh M
 
-Build a Portfolio Site project, part of the Udacity [Full Stack Web Developer Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
+Build a Portfolio Site project, part of the Udacity [Full Stack Web Developer Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004).).
+
+## Live Preview - [Link](https://ganeshm35.github.io/Portfolio/index.html).
 
 ## Project contents
 
