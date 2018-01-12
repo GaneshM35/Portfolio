@@ -1,5 +1,4 @@
 header {
-    /* padding: 20px 0; */
     font-family: 'Courgette', cursive;
     color: #3c78d8;
     background: #f4f5f7;
@@ -25,12 +24,6 @@ footer {
     font-size: 18px;
 }
 
-.profile-picture {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-}
-
 .project {
     text-align: center;
 }
@@ -47,17 +40,45 @@ footer {
 
 .btn {
     margin: 10px;
-    background-color: #2065d6;
+    background: #2065d6;
     color: white;
 }
 
 .btn:hover {
-    background-color: green;
+    background: green;
     color: white;
 }
 
 .love {
     color: red;
+}
+
+.fb {
+    color: #4267B2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.google {
+    color: #DB4437;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.fb,
+.twitter,
+.google,
+.linkedin {
+    font-size: 18px;
+}
+
+#social {
+    text-align: right;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 992px) {
@@ -70,6 +91,8 @@ footer {
     .profile-picture {
         margin: auto;
         display: block;
-        border-radius: 5%;
+    }
+    #social {
+        text-align: center;
     }
 }
